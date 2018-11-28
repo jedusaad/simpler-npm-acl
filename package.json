@@ -1,0 +1,32 @@
+{
+  "name": "simpler-npm-acl",
+  "version": "0.0.1",
+  "description": "Npm package to make the life of those using a user/passsword system easier.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "node ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jedusaad/simpler-npm-acl.git"
+  },
+  "keywords": [
+    "simpler",
+    "acl",
+    "mysql",
+    "control",
+    "list"
+  ],
+  "author": "jedusaad",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jedusaad/simpler-npm-acl/issues"
+  },
+  "homepage": "https://github.com/jedusaad/simpler-npm-acl#readme",
+  "dependencies": {
+    "simpler-mysql": "^0.1.3"
+  }
+}
