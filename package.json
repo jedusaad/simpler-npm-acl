@@ -7,7 +7,7 @@
     "doc": "docs"
   },
   "scripts": {
-    "test": "node ."
+    "test": "clear && node test.js"
   },
   "repository": {
     "type": "git",
@@ -27,6 +27,7 @@
   },
   "homepage": "https://github.com/jedusaad/simpler-npm-acl#readme",
   "dependencies": {
+    "simpler-logger": "^0.1.2",
     "simpler-mysql": "^0.1.3"
   }
 }
