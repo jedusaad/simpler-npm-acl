@@ -1,0 +1,6 @@
+{
+    "USERS":"CREATE TABLE IF NOT EXISTS users (id int(11) NOT NULL AUTO_INCREMENT, username varchar(50) NOT NULL, userId int(11) NOT NULL, createdAt timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP, modifiedAt timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP, status int(11) NOT NULL DEFAULT 1, PRIMARY KEY (id) )",
+    "RESOURCES":"CREATE TABLE IF NOT EXISTS resources ( id int(11) NOT NULL AUTO_INCREMENT, name varchar(50) NOT NULL, description varchar(150) NOT NULL , createdAt timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP, modifiedAt timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP, status int(11) NOT NULL DEFAULT 1, PRIMARY KEY (id) )",
+    "GROUPS":"CREATE TABLE IF NOT EXISTS groups ( id int(11) NOT NULL AUTO_INCREMENT, name varchar(50) NOT NULL, description varchar(150) NOT NULL , createdAt timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP, modifiedAt timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,status int(11) NOT NULL DEFAULT 1, PRIMARY KEY (id) )",
+    "ACTIONS":"CREATE TABLE IF NOT EXISTS actions ( id int(11) NOT NULL AUTO_INCREMENT, name varchar(50) NOT NULL, resource int(11) NOT NULL, createdAt timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP, modifiedAt timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP, status int(11) NOT NULL DEFAULT 1, PRIMARY KEY (id) )"
+}
